@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: black;
+}
+.container {
+  background-color: antiquewhite;
+  height: 450px;
+  width: 350px;
+  padding: 30px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.textContent p {
+  margin-top: 13px;
+  font-size: 12px;
+}
+.showInterest {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  width: 100%;
+  height: 90px;
+  background-color: rgb(128, 255, 0);
+  text-align: center;
+  border-radius: 5px;
+}
+.showInterest h1 {
+  font-size: 20px;
+}
+.showInterest p {
+  margin-top: 10px;
+}
+.inputBox {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  margin-top: 10px;
+}
+.principleAmount input {
+  width: 100%;
+  border-radius: 3px;
+  padding: 8px;
+  border: 1px solid gray;
+}
+.rateOfInterest input {
+  width: 100%;
+  border-radius: 3px;
+  padding: 8px;
+  border: 1px solid gray;
+}
+.timePeriod input {
+  width: 100%;
+  border-radius: 3px;
+  padding: 8px;
+  border: 1px solid gray;
+}
+.buttonClass {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  gap: 10px;
+}
+.buttonClass button {
+  width: 50%;
+  height: 45px;
+}
+.cal {
+  color: white;
+  background-color: black;
+  border-radius: 5px;
+}
+.reset {
+  color: blue;
+  outline: blue;
+}
