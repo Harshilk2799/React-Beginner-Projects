@@ -7,7 +7,7 @@ function Form({ todos, setTodo, id, setId }) {
   function handleSubmit(e) {
     e.preventDefault();
     console.log("Title: ", title);
-    console.log("Description: ", description);
+    console.log("Description : ", description);
 
     if (id) {
       updatedByID(id);
