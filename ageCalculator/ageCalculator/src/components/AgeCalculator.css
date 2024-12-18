@@ -1,0 +1,16 @@
+.Container_middle {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left {
+  width: 500px;
+  background-color: #eef1f6;
+}
+.Container_middle_para {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 50px;
+  margin-top: 50px;
+}
