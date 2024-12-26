@@ -6,6 +6,7 @@ function CricketScore() {
   const [inputData, setInputData] = useState("");
   const [search, setSearch] = useState("");
 
+  // API Fetching
   async function getScore() {
     try {
       const res = await fetch(
