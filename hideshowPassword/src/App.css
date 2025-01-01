@@ -1,0 +1,42 @@
+.input-container {
+  position: relative;
+  border: 1px solid lightgray;
+  min-width: 300px;
+  padding: 0 15px;
+  border-radius: 8px;
+}
+.input-container input {
+  border: none;
+  padding: 15px 0;
+  width: 100%;
+  outline: none;
+}
+.input-icon-button {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  z-index: 2;
+  outline: none;
+  padding: 0;
+  border: none;
+}
+.input-icon-button:focus,
+.input-icon:focus,
+.input-icon-button:hover,
+.input-icon:hover {
+  outline: none;
+  border: none;
+}
+.input-icon {
+  width: 16px;
+  height: 16px;
+  outline: none;
+  pointer-events: none;
+}
