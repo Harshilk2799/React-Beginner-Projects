@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.circle {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 1px solid black;
+  background-color: lightgray;
+}
+.container {
+  margin: 33px;
+}
